@@ -1,0 +1,21 @@
+<view class="search_input">
+<navigator url="/pages/search/fsearch" open-type="navigate">
+    搜索
+</navigator>
+</view>
+<view class="container">
+    <!--轮播图-->
+  <swiper class="home-swiper"  indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block  wx:key="unique">
+      <swiper-item>
+        <image src="/images/1.png" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/2.png" class="slide-image" />
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/3.png" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

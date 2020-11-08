@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",  
+    "pages/lookFor/lookFor", 
+    "pages/take/take", 
+    "pages/user/user",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay",
+    "pages/search/fsearch",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundColor": "#5cadff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "速递",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+    
+  },
+  "tabBar": {
+    "list":[
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/首页.png",
+      "selectedIconPath": "icon/_首页 .png"
+    },
+    {
+      "pagePath": "pages/lookFor/lookFor",
+      "text": "求取",
+      "iconPath": "icon/求取 .png",
+      "selectedIconPath": "icon/_求取.png"
+    },
+    {
+      "pagePath": "pages/take/take",
+      "text": "快递",
+      "iconPath": "icon/快递.png",
+      "selectedIconPath": "icon/_快递.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "个人中心",
+      "iconPath": "icon/个人中心.png",
+      "selectedIconPath": "icon/_个人中心 .png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
